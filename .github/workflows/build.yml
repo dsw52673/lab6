@@ -29,7 +29,7 @@ jobs:
 
     - name: Build Converter
       run: |
-        pyinstaller --onefile converter.py
+        pyinstaller --onefile project.py
 
     - name: Upload Converter
       uses: actions/upload-artifact@v3
