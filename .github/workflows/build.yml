@@ -35,4 +35,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: file-converter
-        path: dist/converter.exe
+        path: dist/project.exe
